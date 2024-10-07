@@ -97,6 +97,12 @@ export default function MyApp({ Component, pageProps }) {
      <td> number </td>
     <td> 200 </td>
   </tr>
+  <tr>
+    <td> delay </td>
+    <td> Progress animation start delay </td>
+     <td> number </td>
+    <td> 0 </td>
+  </tr>
    <tr>
     <td> easing </td>
     <td> Animation cubic-bezier setting for speed </td>
