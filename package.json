@@ -1,0 +1,58 @@
+{
+  "name": "next-app-progress-bar",
+  "version": "1.5.0",
+  "description": "A next js (app+page) route top progress bar has all the functionality required, including all the features and fixed from earlier packages.",
+  "homepage": "https://github.com/siamahnaf/next-app-progress-bar",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rimraf dist && npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
+  },
+  "author": {
+    "name": "Siam Ahnaf",
+    "email": "mail@siamahnaf.com",
+    "url": "https://www.siamahnaf.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "Next",
+    "Next TopLoader",
+    "Next.js",
+    "Next.js 14",
+    "progress bar app directory",
+    "Next.js 13",
+    "Nprogress",
+    "React",
+    "Top Loading Bar",
+    "Progressbar",
+    "next-app-progress-bar"
+  ],
+  "repository": {
+    "type": "git",
+    "directory": "https://github.com/siamahnaf/next-app-progress-bar",
+    "url": "https://github.com/siamahnaf/next-app-progress-bar"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "@types/nprogress": "^0.2.3",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0",
+    "next": "^14.2.14",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.6.2"
+  },
+  "peerDependencies": {
+    "next": ">= 6.0.0",
+    "react": ">= 16.0.0",
+    "react-dom": ">= 16.0.0"
+  },
+  "dependencies": {
+    "nprogress": "^0.2.0"
+  }
+}
