@@ -1,4 +1,8 @@
-<img src="https://res.cloudinary.com/dbjrx698c/image/upload/v1704611347/logo_w4vxp0.png" width="100" height="100" style="display: block; margin: 0 auto;">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://res.cloudinary.com/dub0dpenl/image/upload/v1731780157/Personal%20Logo/logo-white_e6fujz.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://res.cloudinary.com/dub0dpenl/image/upload/v1731780152/Personal%20Logo/logo-dark_qqwrqu.png">
+  <img alt="Siam Ahnaf" src="https://res.cloudinary.com/dub0dpenl/image/upload/v1731780152/Personal%20Logo/logo-dark_qqwrqu.png" height="auto" width="240">
+</picture>
 
 # Next App Progress Bar
 A next js (app+page) route top progress bar has all the functionality required, including all the features and fixed from earlier packages. Most popular packages are <a href="https://www.npmjs.com/package/nextjs-toploader">nextjs-toploader </a> and <a href="https://www.npmjs.com/package/next-nprogress-bar"> next-nprogress-bar </a> both has some issues. <a href="https://www.npmjs.com/package/nextjs-toploader">nextjs-toploader </a> do not come with delay time and even they don't want to give this options as it already has a closed <a href="https://github.com/TheSGJ/nextjs-toploader/pull/18">PR </a>. On the other hand <a href="https://www.npmjs.com/package/next-nprogress-bar"> next-nprogress-bar </a> has a open <a href="https://github.com/Skyleen77/next-nprogress-bar/issues/74">issue</a>. I just try solve this issues and give the options also.
