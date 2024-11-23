@@ -1,6 +1,6 @@
 {
   "name": "next-app-progress-bar",
-  "version": "1.5.6",
+  "version": "1.5.7",
   "description": "A next js (app+page) route top progress bar has all the functionality required, including all the features and fixed from earlier packages.",
   "homepage": "https://github.com/siamahnaf/next-app-progress-bar",
   "main": "dist/cjs/index.js",
