@@ -1,3 +1,15 @@
+# ⚠️ Package Renamed & No Longer Maintained  
+
+## This package has been renamed to [`@siamf/next-progress`](https://www.npmjs.com/package/@siamf/next-progress)  
+
+### Please use [`@siamf/next-progress`](https://www.npmjs.com/package/@siamf/next-progress) instead.  
+
+This package **is no longer maintained**. For the latest updates and improvements, migrate to:  
+
+👉 [`@siamf/next-progress`](https://www.npmjs.com/package/@siamf/next-progress)  
+
+
+
 <br/>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://res.cloudinary.com/dub0dpenl/image/upload/v1731780157/Personal%20Logo/logo-white_e6fujz.png">
